@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/taina/StudioProjects/ProjetoCalculadora/ProjetoCalculadora/app/src/main/res/layout/activity_main.xml" value="0.1" />
+=======
+        <entry key="..\:/Users/Maira/Repositorios/ProjetoCalculadora/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+>>>>>>> 5cbc44249863b527740cef4e3f4eefea4e046600
         <entry key="..\:/Users/taina/StudioProjects/ProjetoCalculadora/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
