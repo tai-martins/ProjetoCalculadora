@@ -1,15 +1,21 @@
 # ProjetoFinal de C214
 
-## Esse projeto foi desenvolvido na Disciplina de Engenharia de Software com o intuito de praticar os aprendizados sobre testes unitários, CI, entre outros. Para isso foi desenvolvido o protótipo de uma calculadora.  
+#### Esse projeto foi desenvolvido na Disciplina de Engenharia de Software com o intuito de praticar os aprendizados sobre testes unitários, CI, entre outros. Para isso foi desenvolvido o protótipo de uma calculadora.  
 
-### Desenvolvido por:groupe:
+### Desenvolvido por 👷‍♀️👷‍♀️
 
 Maíra Alves Chagas &
 Tainara de Cássia Martins
 
-### Ferramentas 💻
+### Ferramentas 💻🖱️
 Para elaboração  do projeto foi utilizada a linguagem JAVA;
-Para gerência de dependências utilizou-se o Gradle. 
+Para gerência de dependências utilizou-se o Gradle;
+Utilizou-se a IDE Android Studio.
 
-### Instalação :
-Para utilização da linguagem JAVA é necessário instalar o JDK que pode ser obtido através do site [Instalação do JDK ](https://www.java.com/pt-BR/download/manual.jsp) as instruções para instalação também se encontram neste link. 
+### Instalação 🖥️
+Para utilização da linguagem JAVA é necessário instalar o JDK que pode ser obtido clicando aqui  [Instalação do JDK ](https://www.java.com/pt-BR/download/manual.jsp) as instruções para instalação também se encontram neste link. 
+
+A IDE Android Studio pode ser obtida por [Instalação do Android Studio](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwzLCVBhD3ARIsAPKYTcSFb0F9lzWPsC40PqqAoNHcrMOExb7eWVK5CFnWLpuH1YzLZot5JOUaAkViEALw_wcB&gclsrc=aw.ds) as instruçoes para instalação também se encontram no link. 
+
+### Execução :
+
