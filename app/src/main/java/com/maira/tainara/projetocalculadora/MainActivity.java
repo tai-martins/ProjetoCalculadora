@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 try{
-                Expression expressao = new ExpressionBuilder(txtExpressao.getText().toString().build);
+                Expression egit add o = new ExpressionBuilder(txtExpressao.getText().toString().build);
                 double resultado = expressao.evaluate();
                 long longResult = (long) resultado;
 

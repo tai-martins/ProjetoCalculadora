@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\taina\StudioProjects\ProjetoCalculadora\ProjetoCalculadora\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\taina\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\taina\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
 14-->C:\Users\taina\StudioProjects\ProjetoCalculadora\ProjetoCalculadora\app\src\main\AndroidManifest.xml:8:9-65
 15        android:debuggable="true"
@@ -49,6 +49,28 @@
 29-->C:\Users\taina\StudioProjects\ProjetoCalculadora\ProjetoCalculadora\app\src\main\AndroidManifest.xml:22:27-74
 30            </intent-filter>
 31        </activity>
-32    </application>
-33
-34</manifest>
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+35            android:authorities="com.maira.tainara.projetocalculadora.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\taina\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\taina\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\taina\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\taina\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+43        </provider>
+44    </application>
+45
+46</manifest>
