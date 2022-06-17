@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import net.objecthunter.exp4j.Expression;
+import net.objecthunter.exp4j.ExpressionBuilder;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button numeroZero, numeroUm, numeroDois, numeroTres, numeroQuatro, numeroCinco, numeroSeis,
@@ -67,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 try{
-                Expression expressao = new ExpressionBuilder(txtExpressao.getText().toString().build);
+                Expression expressao = new ExpressionBuilder(txtExpressao.getText().toString()).build();
                 double resultado = expressao.evaluate();
                 long longResult = (long) resultado;
 
