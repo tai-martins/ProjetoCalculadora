@@ -28,6 +28,10 @@
         "source": "com.maira.tainara.projetocalculadora.app-main-21:/xml/data_extraction_rules.xml"
     },
     {
+        "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/drawable_shape_numero_normal.xml.flat",
+        "source": "com.maira.tainara.projetocalculadora.app-main-21:/drawable/shape_numero_normal.xml"
+    },
+    {
         "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.maira.tainara.projetocalculadora.app-main-21:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -52,8 +56,20 @@
         "source": "com.maira.tainara.projetocalculadora.app-main-21:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/drawable_img.png.flat",
+        "source": "com.maira.tainara.projetocalculadora.app-main-21:/drawable/img.png"
+    },
+    {
+        "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/drawable_shape_numero_selecionado.xml.flat",
+        "source": "com.maira.tainara.projetocalculadora.app-main-21:/drawable/shape_numero_selecionado.xml"
+    },
+    {
         "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.maira.tainara.projetocalculadora.app-main-21:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/drawable_botao_numero_clicado.xml.flat",
+        "source": "com.maira.tainara.projetocalculadora.app-main-21:/drawable/botao_numero_clicado.xml"
     },
     {
         "merged": "com.maira.tainara.projetocalculadora.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.webp.flat",

@@ -12,7 +12,7 @@
         android:id="@+id/text_expressao"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="5+5"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="40sp"
         android:gravity="end"
@@ -24,7 +24,7 @@
         android:id="@+id/text_resultado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="10"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="30sp"
         android:gravity="end"
@@ -146,8 +146,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/backspace"
             style="@style/Number_Button"
-            android:src="@drawable/backspace"
-            android:scaleType="center"/>
+            android:src="@drawable/backspace" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/igual"
