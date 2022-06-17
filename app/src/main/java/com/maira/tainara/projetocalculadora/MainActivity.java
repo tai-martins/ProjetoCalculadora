@@ -47,6 +47,40 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 txtResultado.setText("");
             }
         });
+        backspace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextView expressao = findViewById(R.id.text_expressao);
+                String string = expressao.getText().toString();
+
+                if(!string.isEmpty()){
+                    byte var0 = 0;
+                    int var1 = string.length()-1;
+                    String txtExpressao = string.substring(var0, var1);
+                    expressao.setText(txtExpressao);
+                }
+                txtResultado.setText("");
+            }
+        });
+
+        igual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                Expression expressao = new ExpressionBuilder(txtExpressao.getText().toString().build);
+                double resultado = expressao.evaluate();
+                long longResult = (long) resultado;
+
+                if(resultado == (double)longResult){
+                    txtResultado.setText((CharSequence) String.valueOf(longResult));
+                }else{
+                    txtResultado.setText((CharSequence) String.valueOf(resultado));
+                }
+            }catch (Exception e) {
+
+                }
+            }
+        });
     }
 
         private void Iniciarcomponentes(){
@@ -74,15 +108,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         public void AcrescentarUmaExpressao(String string, boolean limpar_dados){
                 if(txtResultado.getText().equals("")){
-                    txtExpressao.setText("");
+                    txtExpressao.setText(" ");
                 }
                 if(limpar_dados){
-                    txtResultado.setText("");
+                    txtResultado.setText(" ");
                     txtExpressao.append(string);
                 }else{
                     txtExpressao.append(txtResultado.getText());
                     txtExpressao.append(string);
-                    txtResultado.setText("");
+                    txtResultado.setText(" ");
                 }
         }
 
