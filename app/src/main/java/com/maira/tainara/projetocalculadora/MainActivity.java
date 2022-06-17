@@ -23,6 +23,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Iniciarcomponentes();
         getSupportActionBar().hide();
+
+        numeroZero.setOnClickListener(this);
+        numeroUm.setOnClickListener(this);
+        numeroDois.setOnClickListener(this);
+        numeroTres.setOnClickListener(this);
+        numeroQuatro.setOnClickListener(this);
+        numeroCinco.setOnClickListener(this);
+        numeroSeis.setOnClickListener(this);
+        numeroSete.setOnClickListener(this);
+        numeroOito.setOnClickListener(this);
+        numeroNove.setOnClickListener(this);
+        ponto.setOnClickListener(this);
+        soma.setOnClickListener(this);
+        subtracao.setOnClickListener(this);
+        multiplicacao.setOnClickListener(this);
+        divisao.setOnClickListener(this);
+
+        botao_limpar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                txtExpressao.setText("");
+                txtResultado.setText("");
+            }
+        });
     }
 
         private void Iniciarcomponentes(){
@@ -64,7 +88,67 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.numero_zero:
+                AcrescentarUmaExpressao("0", true);
+                break;
 
+            case R.id.numero_um:
+                AcrescentarUmaExpressao("1", true);
+                break;
+
+            case R.id.numero_dois:
+                AcrescentarUmaExpressao("2", true);
+                break;
+
+            case R.id.numero_tres:
+                AcrescentarUmaExpressao("3", true);
+                break;
+
+            case R.id.numero_quatro:
+                AcrescentarUmaExpressao("4", true);
+                break;
+
+            case R.id.numero_cinco:
+                AcrescentarUmaExpressao("5", true);
+                break;
+
+            case R.id.numero_seis:
+                AcrescentarUmaExpressao("6", true);
+                break;
+
+            case R.id.numero_sete:
+                AcrescentarUmaExpressao("7", true);
+                break;
+
+            case R.id.numero_oito:
+                AcrescentarUmaExpressao("8", true);
+                break;
+
+            case R.id.numero_nove:
+                AcrescentarUmaExpressao("9", true);
+                break;
+
+            case R.id.ponto:
+                AcrescentarUmaExpressao(".", true);
+                break;
+
+            case R.id.soma:
+                AcrescentarUmaExpressao("+", false);
+                break;
+
+            case R.id.subtracao:
+                AcrescentarUmaExpressao("-", false);
+                break;
+
+            case R.id.multiplicacao:
+                AcrescentarUmaExpressao("*", false);
+                break;
+
+            case R.id.divisao:
+                AcrescentarUmaExpressao("/", false);
+                break;
+        }
     }
 
 }
