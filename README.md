@@ -1,2 +1,8 @@
-# ProjetoCalculadora
-Repositorio para guardar um projeto de calculadora para a disciplina de engenharia de software
+# ProjetoFinal de C214
+
+##Calculadora 
+
+### Desenvolvido por: 
+
+Maíra Alves Chagas &
+Tainara de Cássia Martins
